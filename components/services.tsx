@@ -4,13 +4,13 @@ export default function Services() {
 	return (
 		<section className="container mx-auto px-4 py-24">
 			<div className="relative">
-				<h2 className="text-6xl font-semibold text-center font-serif">Servicios</h2>
+				<h2 className="text-5xl lg:text-6xl font-semibold text-center font-serif">Servicios</h2>
 				<div className="w-44 h-1.5 bg-primary-200 absolute left-1/2 -translate-x-1/2 -bottom-3"></div>
 			</div>
 
 			<div className="mt-20 border border-slate-200 px-8 py-12 relative">
-				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 bg-white"><h3 className="font-semibold text-3xl font-serif text-center">Para Gobiernos Locales y ONGs</h3></div>
-				<ul className="grid grid-cols-3 gap-x-12 gap-y-8">
+				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 bg-white"><h3 className="font-semibold text-[5.5vw] lg:text-3xl whitespace-nowrap font-serif text-center">Para Gobiernos Locales y ONGs</h3></div>
+				<ul className="grid lg:grid-cols-3 gap-12">
 					<li className="flex flex-col items-center gap-3">
 						<BriefcaseBusiness className="text-primary-600" size={32} absoluteStrokeWidth />
 						<h4 className="font-serif font-semibold text-lg text-center">Asesoría y Consultoría Jurídica</h4>
@@ -50,8 +50,8 @@ export default function Services() {
 			</div>
 
 			<div className="mt-20 border border-slate-200 px-8 py-12 relative">
-				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-4 bg-white"><h3 className="font-semibold text-3xl font-serif text-center">Para Empresas y el Sector Privado</h3></div>
-				<ul className="grid grid-cols-3 gap-x-12 gap-y-8">
+				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 bg-white"><h3 className="font-semibold text-[5.5vw] whitespace-nowrap lg:text-3xl font-serif text-center">Para Empresas y el Sector Privado</h3></div>
+				<ul className="grid lg:grid-cols-3 gap-12">
 					<li className="flex flex-col items-center gap-3">
 						<Scale size={32} className="text-primary-600" absoluteStrokeWidth />
 						<h4 className="font-serif font-semibold text-lg text-center">Cumplimiento Normativo y Gobernanza Corporativa</h4>
@@ -70,8 +70,8 @@ export default function Services() {
 						<p className="text-center text-sm text-slate-700">Evaluación de Impacto en Derechos Humanos y Medio Ambiente. <br /> Diseño de Estrategias de Mitigación.</p>
 					</li>
 
-					<div className="col-span-3 mx-32">
-						<div className="grid grid-cols-2 gap-12">
+					<div className="lg:col-span-3 lg:mx-32">
+						<div className="grid lg:grid-cols-2 gap-12">
 							<li className="flex flex-col items-center gap-3 max-w-sm">
 								<Handshake size={32} className="text-primary-600" absoluteStrokeWidth />
 								<h4 className="font-serif font-semibold text-lg text-center">Estrategias de Incidencia y Responsabilidad Social Empresarial</h4>

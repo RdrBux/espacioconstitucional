@@ -6,7 +6,7 @@ export default function Navigation() {
 					<div className="h-12 aspect-square border-2 border-primary-200 grid place-content-center font-serif text-primary-200 text-2xl font-bold">EC</div>
 					<div className="font-serif leading-none">ESPACIO <br /><span className="font-semibold">CONSTITUCIONAL</span></div>
 				</div>
-				<nav>
+				<nav className="hidden lg:block">
 					<ul className="flex gap-3">
 						<li>
 							<a className="px-3 py-2 border-b-2 border-transparent hover:border-primary-200 duration-200" href="#">Inicio</a>
