@@ -1,5 +1,6 @@
 import { Instagram, Linkedin, Mail } from "lucide-react"
 import { getImageProps } from "next/image"
+import { Logo } from "./logo"
 
 function getBackgroundImage(srcSet = '') {
 	const imageSet = srcSet
@@ -16,7 +17,7 @@ export default function Contact() {
 
 	const {
 		props: { srcSet },
-	} = getImageProps({ alt: 'background', width: 2400, height: 1600, src: '/assets/hero-bg.jpg' })
+	} = getImageProps({ alt: 'background', width: 2400, height: 1600, src: '/assets/bg-contact.jpg' })
 	const backgroundImage = getBackgroundImage(srcSet)
 	const style = { backgroundImage }
 
@@ -60,6 +61,26 @@ export default function Contact() {
 					</div>
 				</div>
 			</section>
+
+			<div className="border-t border-white/20">
+				<footer className="container mx-auto px-4 text-white">
+					<div className="flex justify-between items-center text-whit py-3">
+						<div className="flex gap-2 items-center">
+							<Logo className="h-7 w-7" />
+							<p className="font-serif">Espacio Constitucional</p>
+						</div>
+
+						<nav className="text-sm">
+							<ul className="flex gap-4">
+								<li><a className="hover:underline" href="#">Inicio</a></li>
+								<li><a className="hover:underline" href="#">Quiénes somos</a></li>
+								<li><a className="hover:underline" href="#">Servicios</a></li>
+								<li><a className="hover:underline" href="#">Publicaciones</a></li>
+							</ul>
+						</nav>
+					</div>
+				</footer>
+			</div>
 		</div>
 	)
 }
