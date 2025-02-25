@@ -1,4 +1,4 @@
-import { BookText, BriefcaseBusiness, Building2, GraduationCapIcon, Handshake, NotebookText, Scale, SquareActivity, Trees } from "lucide-react";
+import { BookText, BriefcaseBusiness, Building2, GraduationCapIcon, Handshake, MoveRight, NotebookText, Scale, SquareActivity, Trees } from "lucide-react";
 
 export default function Services() {
 	return (
@@ -49,7 +49,7 @@ export default function Services() {
 				</ul>
 			</div>
 
-			<div className="mt-20 border border-slate-200 px-8 py-12 relative">
+			<div className="mt-24 border border-slate-200 px-8 py-12 relative">
 				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 p-3 bg-white"><h3 className="font-semibold text-[5.5vw] whitespace-nowrap lg:text-3xl font-serif text-center">Para Empresas y el Sector Privado</h3></div>
 				<ul className="grid lg:grid-cols-3 gap-12">
 					<li className="flex flex-col items-center gap-3">
@@ -88,6 +88,11 @@ export default function Services() {
 
 				</ul>
 			</div>
+
+			<button className="bg-primary-600 mx-auto text-white px-6 py-3 mt-16 w-fit hover:bg-primary-700 duration-200 flex items-center gap-2">
+				Más información
+				<MoveRight className="mt-0.5" size={20} />
+			</button>
 		</section>
 	)
 }
