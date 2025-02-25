@@ -1,11 +1,11 @@
 export default function About() {
 	return (
 		<div className="bg-[#F8FAFC]">
-			<section className="container mx-auto px-4 py-24">
+			<section className="container mx-auto px-4 py-20 lg:py-24">
 				<div className="text-lg max-w-3xl">
 					<div className="relative">
-						<h2 className="text-5xl font-semibold font-serif">Nuestra misión y compromiso</h2>
-						<div className="absolute h-1.5 w-80 bg-primary-200 -bottom-2"></div>
+						<h2 className="text-4xl leading-tight lg:text-5xl font-semibold font-serif">Nuestra misión y compromiso</h2>
+						<div className="absolute h-1.5 w-44 lg:w-80 bg-primary-200 -bottom-2"></div>
 					</div>
 
 					<p className="text-slate-800 mt-8">Espacio Constitucional inició con una idea clara: hacer que el derecho sea un aliado estratégico, no una barrera. En un entorno normativo en constante cambio, brindamos soluciones que aportan claridad y seguridad a empresas y profesionales.</p>
