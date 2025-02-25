@@ -1,9 +1,11 @@
+import { Logo } from "./logo";
+
 export default function Navigation() {
 	return (
 		<div>
 			<header className="flex items-center justify-between">
 				<div className="flex items-center gap-3">
-					<div className="h-12 aspect-square border-2 border-primary-200 grid place-content-center font-serif text-primary-200 text-2xl font-bold">EC</div>
+					<Logo className="text-primary-200" />
 					<div className="font-serif leading-none">ESPACIO <br /><span className="font-semibold">CONSTITUCIONAL</span></div>
 				</div>
 				<nav className="hidden lg:block">
