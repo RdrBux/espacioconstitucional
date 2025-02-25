@@ -28,7 +28,7 @@ export default function Hero() {
 
 					<section className="pt-40 pb-48">
 						<h1 className="font-serif text-[8vw] leading-tight lg:text-6xl font-semibold">Construyendo el marco <br /> ideal para tu institución</h1>
-						<p className="max-w-2xl mt-4">Somos una consultora especializada en asesoría jurídica y fortalecimiento institucional en América Latina. Acompañamos a gobiernos, ONGs y empresas en el diseño de estrategias normativas, políticas públicas y cumplimiento de estándares internacionales.</p>
+						<p className="max-w-xl mt-4">Somos una consultora especializada en brindar asesoría integral y acompañamiento técnico a diversos actores, ayudándolos a diseñar e implementar estrategias que fortalezcan la institucionalidad, promuevan la transparencia, garanticen la coherencia normativa y fomenten el cumplimiento de buenas prácticas internacionales.</p>
 						<a className="bg-primary-600 text-white px-6 py-3 mt-6 block w-fit hover:bg-primary-700 duration-200" href="#">Conocenos</a>
 					</section>
 

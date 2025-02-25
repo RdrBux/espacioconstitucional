@@ -8,10 +8,10 @@ export default function About() {
 						<div className="absolute h-1.5 w-44 lg:w-80 bg-primary-200 -bottom-2"></div>
 					</div>
 
-					<p className="text-slate-800 mt-8">Espacio Constitucional inició con una idea clara: hacer que el derecho sea un aliado estratégico, no una barrera. En un entorno normativo en constante cambio, brindamos soluciones que aportan claridad y seguridad a empresas y profesionales.</p>
-					<p className="text-slate-800 mt-6">Creemos en la importancia de un asesoramiento sólido y en la construcción de relaciones de confianza. Nuestro compromiso es ofrecer respuestas precisas y efectivas, siempre con la mirada puesta en el futuro.</p>
+					<p className="text-slate-800 mt-8">Espacio Constitucional nació con una visión clara: convertir el derecho en un aliado estratégico, no en una barrera. En un entorno normativo, político, económico y social en constante evolución, ofrecemos soluciones que aportan claridad y seguridad a actores tanto del sector público como privado.</p>
+					<p className="text-slate-800 mt-6">Creemos en el valor de un asesoramiento estratégico alineado con los estándares internacionales. Nuestro compromiso es proporcionar respuestas precisas y efectivas, siempre con una visión de futuro.</p>
 					<p className="mt-6 font-serif font-semibold text-xl italic">Facundo Osuna</p>
-					<p className="text-slate-800">Fundador de Espacio Constitucional</p>
+					<p className="text-slate-800">Titular de Espacio Constitucional</p>
 				</div>
 			</section>
 		</div>
