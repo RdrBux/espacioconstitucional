@@ -1,16 +1,40 @@
 import type { Metadata } from "next";
-import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import localFont from 'next/font/local'
 import "./globals.css";
 
-const sourceSerif = Source_Serif_4({
-  variable: "--font-source-serif",
-  subsets: ["latin"],
+const sourceSerif = localFont({
+  src: [
+    {
+      path: './fonts/source-serif-pro-latin-400-normal.woff2',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: './fonts/source-serif-pro-latin-600-normal.woff2',
+      weight: '600',
+      style: 'normal'
+    }
+  ],
+  variable: '--font-source-serif'
 })
 
-const sourceSans = Source_Sans_3({
-  variable: "--font-source-sans",
-  subsets: ["latin"],
+
+const sourceSans = localFont({
+  src: [
+    {
+      path: './fonts/source-sans-pro-latin-400-normal.woff2',
+      weight: '400',
+      style: 'normal'
+    },
+    {
+      path: './fonts/source-sans-pro-latin-600-normal.woff2',
+      weight: '600',
+      style: 'normal'
+    }
+  ],
+  variable: '--font-source-sans'
 })
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
