@@ -1,4 +1,5 @@
 import { Logo } from "./logo";
+import HamburgerMenu from "./hamburger-menu";
 
 export default function Navigation() {
 	return (
@@ -8,6 +9,9 @@ export default function Navigation() {
 					<Logo className="text-primary-200" />
 					<div className="font-serif leading-none">ESPACIO <br /><span className="font-semibold">CONSTITUCIONAL</span></div>
 				</div>
+
+				<HamburgerMenu />
+
 				<nav className="hidden lg:block">
 					<ul className="flex gap-3">
 						<li>
