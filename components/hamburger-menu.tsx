@@ -3,6 +3,7 @@
 import { ArrowUpRight, Menu, X } from "lucide-react"
 import { useEffect, useRef, useState } from "react"
 import { Logo } from "./logo"
+import Link from "next/link"
 
 export default function HamburgerMenu() {
 	const [showMenu, setShowMenu] = useState(false)
@@ -37,8 +38,8 @@ export default function HamburgerMenu() {
 
 						<nav className="">
 							<ul className="mt-24 font-serif text-3xl font-semibold flex flex-col gap-4">
-								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">01</div>Inicio</a></li>
-								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">02</div>Quiénes somos</a></li>
+								<li><Link className="flex gap-2" href="/"><div aria-hidden className="text-xs text-slate-600">01</div>Inicio</Link></li>
+								<li><Link className="flex gap-2" href="/quienes-somos"><div aria-hidden className="text-xs text-slate-600">02</div>Quiénes somos</Link></li>
 								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">03</div>Servicios</a></li>
 								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">04</div>Publicaciones</a></li>
 								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">05</div>Contacto</a></li>

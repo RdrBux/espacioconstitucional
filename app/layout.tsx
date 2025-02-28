@@ -47,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${sourceSerif.variable} ${sourceSans.variable} text-slate-900 font-sans antialiased`}
       >

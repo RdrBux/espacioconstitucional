@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Quotes } from "./icons";
-import { Linkedin } from "lucide-react";
 
 export default function About() {
 	return (
