@@ -28,6 +28,28 @@ export default {
           '950': '#09272a',
         },
       },
+      keyframes: {
+        appear: {
+          '0%': {
+            width: '0px',
+          },
+          '100%': {
+            width: '320px',
+          },
+        },
+        fade: {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '0.8',
+          },
+        },
+      },
+      animation: {
+        appear: 'appear 0.3s ease-in-out',
+        fade: 'fade 0.3s ease-in',
+      },
     },
   },
   plugins: [],
