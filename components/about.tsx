@@ -8,7 +8,7 @@ export default function About() {
 				<div className="flex items-center gap-40">
 					<div className="text-lg max-w-3xl">
 						<div className="relative">
-							<h2 className="text-4xl leading-tight lg:text-5xl font-semibold font-serif">Nuestra misión y compromiso</h2>
+							<h2 className="text-4xl leading-tighter lg:text-5xl font-semibold font-serif">Nuestra misión y compromiso</h2>
 							<div className="absolute h-1.5 w-44 lg:w-80 bg-primary-200 -bottom-2"></div>
 						</div>
 

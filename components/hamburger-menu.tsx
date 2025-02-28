@@ -36,7 +36,7 @@ export default function HamburgerMenu() {
 
 						<button aria-label="Cerrar menú" onClick={() => setShowMenu(false)} className="absolute text-slate-400 right-6 top-14"><X size={32} absoluteStrokeWidth /></button>
 
-						<nav className="">
+						<nav className="relative z-10">
 							<ul className="mt-24 font-serif text-3xl font-semibold flex flex-col gap-4">
 								<li><Link className="flex gap-2" href="/"><div aria-hidden className="text-xs text-slate-600">01</div>Inicio</Link></li>
 								<li><Link className="flex gap-2" href="/quienes-somos"><div aria-hidden className="text-xs text-slate-600">02</div>Quiénes somos</Link></li>
@@ -46,10 +46,10 @@ export default function HamburgerMenu() {
 							</ul>
 						</nav>
 
-						<div className="mt-36">
+						<div className="mt-36 relative z-10">
 							<div className="flex gap-4 text-xl mt-10">
-								<a className="flex gap-1 items-center" href="http://" target="_blank" rel="noopener noreferrer">LinkedIn <ArrowUpRight className="text-slate-600" size={20} /></a>
-								<a className="flex gap-1 items-center" href="http://" target="_blank" rel="noopener noreferrer">Instagram <ArrowUpRight className="text-slate-600" size={20} /></a>
+								<a className="flex gap-1 items-center" href="https://www.linkedin.com/company/espacio-constitucional" target="_blank" rel="noopener noreferrer">LinkedIn <ArrowUpRight className="text-slate-600" size={20} /></a>
+								<a className="flex gap-1 items-center" href="https://www.instagram.com/espacioconstitucional" target="_blank" rel="noopener noreferrer">Instagram <ArrowUpRight className="text-slate-600" size={20} /></a>
 							</div>
 							<a className="block text-slate-700 text-lg mt-3" href="mailto:info@espacioconstitucional.com">info@espacioconstitucional.com</a>
 						</div>
