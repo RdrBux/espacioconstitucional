@@ -40,7 +40,7 @@ export default function HamburgerMenu() {
 							<ul className="mt-24 font-serif text-3xl font-semibold flex flex-col gap-4">
 								<li><Link className="flex gap-2" href="/"><div aria-hidden className="text-xs text-slate-600">01</div>Inicio</Link></li>
 								<li><Link className="flex gap-2" href="/quienes-somos"><div aria-hidden className="text-xs text-slate-600">02</div>Quiénes somos</Link></li>
-								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">03</div>Servicios</a></li>
+								<li><Link className="flex gap-2" href="/servicios"><div aria-hidden className="text-xs text-slate-600">03</div>Servicios</Link></li>
 								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">04</div>Publicaciones</a></li>
 								<li><a className="flex gap-2" href="#"><div aria-hidden className="text-xs text-slate-600">05</div>Contacto</a></li>
 							</ul>

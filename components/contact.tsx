@@ -1,6 +1,7 @@
 import { Instagram, Linkedin, Mail } from "lucide-react"
 import { getImageProps } from "next/image"
 import { Logo } from "./logo"
+import Link from "next/link"
 
 function getBackgroundImage(srcSet = '') {
 	const imageSet = srcSet
@@ -72,9 +73,9 @@ export default function Contact() {
 
 						<nav className="text-xs lg:text-sm">
 							<ul className="flex gap-4">
-								<li><a className="hover:underline" href="#">Inicio</a></li>
-								<li><a className="hover:underline" href="#">Quiénes somos</a></li>
-								<li><a className="hover:underline" href="#">Servicios</a></li>
+								<li><Link className="hover:underline" href="/">Inicio</Link></li>
+								<li><Link className="hover:underline" href="/quienes-somos">Quiénes somos</Link></li>
+								<li><Link className="hover:underline" href="/servicios">Servicios</Link></li>
 								<li><a className="hover:underline" href="#">Publicaciones</a></li>
 							</ul>
 						</nav>

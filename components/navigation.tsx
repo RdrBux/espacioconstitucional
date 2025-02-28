@@ -22,7 +22,7 @@ export default function Navigation({ darkMode = true }: { darkMode?: boolean }) 
 							<Link className={`${darkMode ? "hover:border-primary-200" : "hover:border-primary-600"} px-3 py-2 border-b-2 border-transparent duration-200`} href="/quienes-somos">Quiénes somos</Link>
 						</li>
 						<li>
-							<a className={`${darkMode ? "hover:border-primary-200" : "hover:border-primary-600"} px-3 py-2 border-b-2 border-transparent duration-200`} href="#">Servicios</a>
+							<Link className={`${darkMode ? "hover:border-primary-200" : "hover:border-primary-600"} px-3 py-2 border-b-2 border-transparent duration-200`} href="/servicios">Servicios</Link>
 						</li>
 						<li>
 							<a className={`${darkMode ? "hover:border-primary-200" : "hover:border-primary-600"} px-3 py-2 border-b-2 border-transparent duration-200`} href="#">Publicaciones</a>

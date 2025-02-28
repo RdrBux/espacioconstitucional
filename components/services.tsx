@@ -1,4 +1,5 @@
 import { BookText, BriefcaseBusiness, Building2, GraduationCapIcon, Handshake, MoveRight, NotebookText, Scale, SquareActivity, Trees } from "lucide-react";
+import Link from "next/link";
 
 export default function Services() {
 	return (
@@ -89,10 +90,10 @@ export default function Services() {
 				</ul>
 			</div>
 
-			<button className="bg-primary-600 mx-auto text-white px-6 py-3 mt-16 w-fit hover:bg-primary-700 duration-200 flex items-center gap-2">
+			<Link href="/servicios" className="bg-primary-600 mx-auto text-white px-6 py-3 mt-16 w-fit hover:bg-primary-700 duration-200 flex items-center gap-2">
 				Más información
 				<MoveRight className="mt-0.5" size={20} />
-			</button>
+			</Link>
 		</section>
 	)
 }
