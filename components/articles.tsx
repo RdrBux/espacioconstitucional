@@ -1,6 +1,6 @@
 export default function Articles() {
 	return (
-		<section className="container mx-auto px-4 pt-20 lg:pt-24 pb-8 lg:pb-12">
+		<section className="container mx-auto px-4 pt-20 lg:pt-24 pb-12 lg:pb-20">
 			<div className="relative">
 				<h2 className="text-5xl lg:text-6xl font-semibold font-serif">Publicaciones</h2>
 				<div className="w-44 h-1.5 bg-primary-200 absolute -bottom-3"></div>
