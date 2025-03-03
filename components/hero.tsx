@@ -1,17 +1,7 @@
 import { getImageProps } from "next/image"
 import Navigation from "./navigation"
 import Link from "next/link"
-
-function getBackgroundImage(srcSet = '') {
-	const imageSet = srcSet
-		.split(', ')
-		.map((str) => {
-			const [url, dpi] = str.split(' ')
-			return `url("${url}") ${dpi}`
-		})
-		.join(', ')
-	return `image-set(${imageSet})`
-}
+import { getBackgroundImage } from "@/utils/utils"
 
 export default function Hero() {
 

@@ -2,17 +2,7 @@ import { Instagram, Linkedin, Mail } from "lucide-react"
 import { getImageProps } from "next/image"
 import { Logo } from "./logo"
 import Link from "next/link"
-
-function getBackgroundImage(srcSet = '') {
-	const imageSet = srcSet
-		.split(', ')
-		.map((str) => {
-			const [url, dpi] = str.split(' ')
-			return `url("${url}") ${dpi}`
-		})
-		.join(', ')
-	return `image-set(${imageSet})`
-}
+import { getBackgroundImage } from "@/utils/utils"
 
 export default function Contact() {
 
@@ -76,7 +66,7 @@ export default function Contact() {
 								<li><Link className="hover:underline" href="/">Inicio</Link></li>
 								<li><Link className="hover:underline" href="/quienes-somos">Quiénes somos</Link></li>
 								<li><Link className="hover:underline" href="/servicios">Servicios</Link></li>
-								<li><a className="hover:underline" href="#">Publicaciones</a></li>
+								<li><Link className="hover:underline" href="/publicaciones">Publicaciones</Link></li>
 							</ul>
 						</nav>
 					</div>
