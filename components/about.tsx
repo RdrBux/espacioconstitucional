@@ -6,7 +6,7 @@ export default function About() {
 		<div className="bg-[#F8FAFC]">
 			<section className="container mx-auto px-4 py-20 lg:py-24">
 				<div className="flex items-center gap-40">
-					<div className="text-lg max-w-3xl">
+					<div className="text-lg max-w-3xl 2xl:max-w-4xl">
 						<div className="relative">
 							<h2 className="text-4xl leading-tighter lg:text-5xl font-semibold font-serif">Nuestra misión y compromiso</h2>
 							<div className="absolute h-1.5 w-44 lg:w-80 bg-primary-200 -bottom-2"></div>
@@ -27,7 +27,8 @@ export default function About() {
 
 					<div className="hidden lg:block relative shrink-0">
 						<Image className="w-56 relative z-10" src={"/assets/avatar.jpg"} alt="Facundo Osuna" width={640} height={960} />
-						<Image className="absolute w-48 -top-9 -left-9" aria-hidden src={'/assets/dot-grid.png'} width={320} height={320} alt="dot grid" />
+						<Image className="absolute w-48 -top-6 -left-6" aria-hidden src={'/assets/dot-grid.png'} width={320} height={320} alt="dot grid" />
+						<div className="absolute w-48 h-48 -bottom-2 -right-2 bg-primary-200/75"></div>
 					</div>
 				</div>
 			</section>

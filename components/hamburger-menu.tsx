@@ -34,7 +34,7 @@ export default function HamburgerMenu() {
 					<div className="fixed inset-0 bg-slate-950 opacity-80 animate-fade"></div>
 					<div ref={menu} className="w-80 text-slate-900 bg-white relative overflow-hidden animate-appear">
 						<div className="p-6">
-							<div aria-hidden><Logo className="absolute scale-[6] bottom-64 left-1/2 -translate-x-1/2 text-slate-200/20" /></div>
+							<div aria-hidden><Logo className="absolute scale-[8] bottom-36 left-1/2 -translate-x-1/2 text-slate-200/20" /></div>
 
 							<button aria-label="Cerrar menú" onClick={() => setShowMenu(false)} className="absolute text-slate-400 right-6 top-14"><X size={32} absoluteStrokeWidth /></button>
 
@@ -48,7 +48,7 @@ export default function HamburgerMenu() {
 								</ul>
 							</nav>
 
-							<div className="mt-36 relative z-10">
+							<div className="mt-36 absolute bottom-24 z-10">
 								<div className="flex gap-4 text-xl mt-10">
 									<a className="flex gap-1 items-center" href="https://www.linkedin.com/company/espacio-constitucional" target="_blank" rel="noopener noreferrer">LinkedIn <ArrowUpRight className="text-slate-600" size={20} /></a>
 									<a className="flex gap-1 items-center" href="https://www.instagram.com/espacioconstitucional" target="_blank" rel="noopener noreferrer">Instagram <ArrowUpRight className="text-slate-600" size={20} /></a>

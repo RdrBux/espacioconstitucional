@@ -71,15 +71,15 @@ export default function Services() {
 						<p className="text-center text-sm text-slate-700">Evaluación de Impacto en Derechos Humanos y Medio Ambiente. <br /> Diseño de Estrategias de Mitigación.</p>
 					</li>
 
-					<div className="lg:col-span-3 lg:mx-32">
+					<div className="lg:col-span-3 mx-auto lg:mx-32">
 						<div className="grid lg:grid-cols-2 gap-12">
-							<li className="flex flex-col items-center gap-3 max-w-sm">
+							<li className="flex flex-col items-center mx-auto gap-3 max-w-sm">
 								<Handshake size={32} className="text-primary-600" absoluteStrokeWidth />
 								<h4 className="font-serif font-semibold text-lg text-center">Estrategias de Incidencia y Responsabilidad Social Empresarial</h4>
 								<p className="text-center text-sm text-slate-700">Participación en Políticas Públicas y Alianzas Estratégicas.</p>
 							</li>
 
-							<li className="flex flex-col items-center gap-3 max-w-sm">
+							<li className="flex flex-col items-center mx-auto gap-3 max-w-sm">
 								<SquareActivity size={32} className="text-primary-600" absoluteStrokeWidth />
 								<h4 className="font-serif font-semibold text-lg text-center">Monitoreo y Evaluación para Empresas</h4>
 								<p className="text-center text-sm text-slate-700">Seguimiento de Cumplimiento Normativo. <br /> Análisis del Entorno Legal y Regulatorio.</p>
