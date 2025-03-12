@@ -61,7 +61,7 @@ export default function Servicios() {
 						<h4 className="font-semibold text-slate-950 mt-5">Litigio Estratégico</h4>
 						<ul className="list-disc ml-6 mt-2">
 							<li>Asesoramiento en litigios estratégicos en temas constitucionales y de derechos humanos.</li>
-							<li>Estrategias de defensa en casos de vulneración de derechos fundamentales.</li>
+							<li>Estrategias de litigio en casos de vulneración de derechos fundamentales.</li>
 						</ul>
 
 						<h3 className="font-semibold text-slate-950 text-xl mt-8">2. Capacitación y Formación</h3>
