@@ -66,7 +66,7 @@ export default function Contact() {
 								<li><Link className="hover:underline" href="/">Inicio</Link></li>
 								<li><Link className="hover:underline" href="/quienes-somos">Quiénes somos</Link></li>
 								<li><Link className="hover:underline" href="/servicios">Servicios</Link></li>
-								<li><Link className="hover:underline" href="/publicaciones">Publicaciones</Link></li>
+								{/* <li><Link className="hover:underline" href="/publicaciones">Publicaciones</Link></li> */}
 							</ul>
 						</nav>
 					</div>

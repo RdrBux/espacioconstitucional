@@ -43,8 +43,8 @@ export default function HamburgerMenu() {
 									<li><Link className="flex gap-2" href="/"><div aria-hidden className="text-xs text-slate-600">01</div>Inicio</Link></li>
 									<li><Link className="flex gap-2 whitespace-nowrap" href="/quienes-somos"><div aria-hidden className="text-xs text-slate-600">02</div>Quiénes somos</Link></li>
 									<li><Link className="flex gap-2" href="/servicios"><div aria-hidden className="text-xs text-slate-600">03</div>Servicios</Link></li>
-									<li><Link className="flex gap-2" href="/publicaciones"><div aria-hidden className="text-xs text-slate-600">04</div>Publicaciones</Link></li>
-									<li><a onClick={() => setShowMenu(false)} className="flex gap-2" href="#contacto"><div aria-hidden className="text-xs text-slate-600">05</div>Contacto</a></li>
+									{/* <li><Link className="flex gap-2" href="/publicaciones"><div aria-hidden className="text-xs text-slate-600">04</div>Publicaciones</Link></li> */}
+									<li><a onClick={() => setShowMenu(false)} className="flex gap-2" href="#contacto"><div aria-hidden className="text-xs text-slate-600">04</div>Contacto</a></li>
 								</ul>
 							</nav>
 
