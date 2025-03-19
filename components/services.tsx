@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Services() {
 	return (
-		<section className="container mx-auto px-4 py-20 lg:py-24">
+		<section id="content-container" className="container mx-auto px-4 py-20 lg:py-24">
 			<div className="relative">
 				<h2 className="text-5xl lg:text-6xl font-semibold text-center font-serif">Servicios</h2>
 				<div className="w-44 h-1.5 bg-primary-200 absolute left-1/2 -translate-x-1/2 -bottom-3"></div>

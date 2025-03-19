@@ -3,7 +3,7 @@ import { Quotes } from "./icons";
 
 export default function About() {
 	return (
-		<div className="bg-gray-100/75">
+		<div id="content-container" className="bg-gray-100/75">
 			<section className="container mx-auto px-4 py-20 lg:py-24">
 				<div className="flex items-center gap-40">
 					<div className="text-lg max-w-3xl 2xl:max-w-4xl">

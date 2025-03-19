@@ -13,7 +13,7 @@ export default function Contact() {
 	const style = { backgroundImage }
 
 	return (
-		<div style={style} className="bg-black bg-cover bg-center">
+		<div id="content-container" style={style} className="bg-black bg-cover bg-center">
 			<section id="contacto" className="py-20 lg:py-24 px-8 lg:px-4">
 				<h2 className="text-center font-semibold text-2xl lg:text-4xl font-serif text-white">Realizá tu consulta de manera <br /> gratuita y sin compromisos</h2>
 
