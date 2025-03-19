@@ -4,10 +4,9 @@ import useScalingValue from "@/hooks/useScalingValue"
 
 export function HeroTitle() {
 	const { scalingValue } = useScalingValue()
-	console.log(scalingValue)
 
 	return (
-		<h1 className={`${scalingValue > 1 ? 'text-2xl' : 'text-[8vw]'} font-serif md:text-5xl leading-tight lg:text-6xl 2xl:text-7xl font-semibold`}>Construyendo el marco <br /> ideal para tu institución</h1>
+		<h1 style={scalingValue > 1 && window.innerWidth < 768 ? { fontSize: `${8 * scalingValue}vw` } : {}} className="font-serif text-[8vw] md:text-5xl leading-tight lg:text-6xl 2xl:text-7xl font-semibold">Construyendo el marco <br /> ideal para tu institución</h1>
 	)
 }
 
