@@ -19,13 +19,10 @@ export default function FixScaling() {
 			const sizeNumber = parseFloat(computedSize);
 
 			// If the text size is larger than normal (larger than 16px), we’ll apply adjustments
-			if (sizeNumber > 10) {
-				document.body.classList.add("larger-text");
-			} else {
-				document.body.classList.remove("larger-text");
+			if (sizeNumber > 16) {
+				document.documentElement.style.fontSize = `${16 * (16 / sizeNumber)}px`;
 			}
 		}
-
 		// Detect the scaling once on page load
 		detectTextScaling();
 
