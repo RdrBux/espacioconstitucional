@@ -22,11 +22,14 @@ export default function FixScaling() {
 				const scaleFactor = 16 / sizeNumber;
 
 				// Apply scale to the content container instead of the whole page
-				const container = document.getElementById("content-container");
+				const container = document.querySelectorAll<HTMLElement>(".content-container");
 				if (container) {
-					container.style.transform = `scale(${scaleFactor})`;
-					container.style.transformOrigin = "top left";
-					container.style.width = `${100 / scaleFactor}%`; // Prevent clipping
+					container.forEach((container) => {
+						container.style.transform = `scale(${scaleFactor})`;
+						container.style.transformOrigin = "top left";
+						container.style.width = `${100 / scaleFactor}%`; // Prevent clipping
+					})
+
 				}
 			} else {
 				// Reset the transform if the size is normal

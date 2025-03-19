@@ -12,7 +12,7 @@ export default function Hero() {
 	const style = { backgroundImage }
 
 	return (
-		<div id="content-container" style={style} className="bg-black bg-cover bg-[5%_50%] lg:bg-center">
+		<div style={style} className="content-container | bg-black bg-cover bg-[5%_50%] lg:bg-center">
 			<div className="container mx-auto px-4 pt-12">
 				<div className="text-white">
 					<Navigation />
