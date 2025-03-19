@@ -3,8 +3,8 @@ import { useEffect } from "react";
 
 export default function FixScaling() {
 	useEffect(() => {
-		function detectAndFixScaling() {
-			// Create a test div with a known font size
+		function detectTextScaling() {
+			// Create a test element to measure text scaling
 			const testDiv = document.createElement("div");
 			testDiv.style.position = "absolute";
 			testDiv.style.visibility = "hidden";
@@ -12,39 +12,27 @@ export default function FixScaling() {
 			testDiv.innerText = "Test";
 			document.body.appendChild(testDiv);
 
-			// Get computed font size
+			// Get the computed font size
 			const computedSize = window.getComputedStyle(testDiv).fontSize;
 			document.body.removeChild(testDiv);
+
 			const sizeNumber = parseFloat(computedSize);
 
-			// If the font is larger than expected, scale it down
-			if (sizeNumber > 16) {
-				const scaleFactor = 16 / sizeNumber;
-
-				// Apply scale to the content container instead of the whole page
-				const container = document.getElementById("content-container");
-				if (container) {
-					container.style.transform = `scale(${scaleFactor})`;
-					container.style.transformOrigin = "top left";
-					container.style.width = `${100 / scaleFactor}%`; // Prevent clipping
-				}
+			// If the text size is larger than normal (larger than 16px), we’ll apply adjustments
+			if (sizeNumber > 10) {
+				document.body.classList.add("larger-text");
 			} else {
-				// Reset the transform if the size is normal
-				const container = document.getElementById("content-container");
-				if (container) {
-					container.style.transform = "";
-					container.style.width = "";
-				}
+				document.body.classList.remove("larger-text");
 			}
 		}
 
-		// Run once on page load
-		detectAndFixScaling();
+		// Detect the scaling once on page load
+		detectTextScaling();
 
-		// Run again when the viewport size changes (for rotation)
-		window.addEventListener("resize", detectAndFixScaling);
+		// Add event listener to detect when the window is resized
+		window.addEventListener("resize", detectTextScaling);
 
-		return () => window.removeEventListener("resize", detectAndFixScaling);
+		return () => window.removeEventListener("resize", detectTextScaling);
 	}, []);
 
 	return null; // No UI, just logic
