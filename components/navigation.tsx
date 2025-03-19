@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navigation({ darkMode = true }: { darkMode?: boolean }) {
 	return (
-		<div className="absolute inset-0 container mx-auto px-4 pt-12">
+		<div className="absolute z-30 inset-0 container mx-auto px-4 pt-12">
 			<header className={`${darkMode ? 'text-white' : 'text-slate-950'} flex items-center justify-between`}>
 				<Link href="/" className="flex items-center gap-3">
 					<Logo className={`${darkMode ? 'text-primary-200' : 'text-primary-600'}`} />

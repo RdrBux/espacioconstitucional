@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 export default function About() {
 	return (
 		<>
-			<div className="container mx-auto px-4 pt-12">
-				<Navigation darkMode={false} />
+			<Navigation darkMode={false} />
+			<div id="quienes-somos" className="container mx-auto px-4 pt-24">
 
 				<main className="my-24">
 					<div className="relative">
