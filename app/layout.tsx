@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
+import FixScaling from "@/components/fix-scaling";
 
 const sourceSerif = localFont({
   src: [
@@ -53,6 +54,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <FixScaling />
     </html>
   );
 }

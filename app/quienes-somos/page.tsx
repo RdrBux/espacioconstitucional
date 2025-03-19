@@ -1,5 +1,4 @@
 import Contact from "@/components/contact";
-import FixScaling from "@/components/fix-scaling";
 import Navigation from "@/components/navigation";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -43,8 +42,6 @@ export default function About() {
 				</div>
 				<Contact />
 			</div>
-
-			<FixScaling />
 		</>
 	);
 }

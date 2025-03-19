@@ -23,7 +23,7 @@ export default function Publicaciones() {
 					<div className="py-16 grid lg:grid-cols-2 gap-16 lg:gap-24 gap-y-24 lg:gap-y-32">
 
 						<article className="relative w-fit h-fit">
-							<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="h-[360px] lg:h-[400px] bg-black object-cover" />
+							<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="h-[22.5rem] lg:h-[25rem] bg-black object-cover" />
 							<div className="bg-white p-6 shadow-[0_5px_30px_0] shadow-[#0F172B18] absolute left-8 right-8 lg:left-12 lg:right-12 -bottom-8 lg:-bottom-12">
 								<p className="text-sm text-slate-500">3 de marzo de 2025</p>
 								<h3 className="mt-1 font-serif text-xl lg:text-2xl font-semibold leading-tight">Cambios en la Normativa Laboral 2025</h3>
@@ -33,7 +33,7 @@ export default function Publicaciones() {
 						</article>
 
 						<article className="relative w-fit h-fit">
-							<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="h-[360px] lg:h-[400px] bg-black object-cover" />
+							<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="h-[22.5rem] lg:h-[25rem] bg-black object-cover" />
 							<div className="bg-white p-6 shadow-[0_5px_30px_0] shadow-[#0F172B18] absolute left-8 right-8 lg:left-12 lg:right-12 -bottom-8 lg:-bottom-12">
 								<p className="text-sm text-slate-500">3 de marzo de 2025</p>
 								<h3 className="mt-1 font-serif text-xl lg:text-2xl font-semibold leading-tight">Cambios en la Normativa Laboral 2025</h3>

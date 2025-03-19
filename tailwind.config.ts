@@ -31,10 +31,10 @@ export default {
       keyframes: {
         appear: {
           '0%': {
-            width: '0px',
+            width: '0rem',
           },
           '100%': {
-            width: '320px',
+            width: '20rem',
           },
         },
         fade: {

@@ -10,7 +10,7 @@ export default function Articles() {
 
 			<div className="py-16 flex gap-16 lg:gap-24 2xl:gap-28 overflow-auto">
 				<article className="relative w-fit h-fit shrink-0">
-					<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="w-[240px] lg:w-[360px] 2xl:w-[400px] h-[360px] lg:h-[400px] bg-black object-cover" />
+					<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="w-[15rem] lg:w-[22.5rem] 2xl:w-[25rem] h-[22.5rem] lg:h-[25rem] bg-black object-cover" />
 					<div className="bg-white p-6 shadow-[0_5px_30px_0] shadow-[#0F172B18] w-64 lg:w-80 absolute left-8 lg:left-24 2xl:left-32 -bottom-8 lg:-bottom-12">
 						<h3 className="font-serif text-xl lg:text-2xl font-semibold leading-tight">Cambios en la Normativa Laboral 2025</h3>
 						<p className="text-slate-700 mt-3">Reformas clave y su impacto en empresas y trabajadores</p>
@@ -19,7 +19,7 @@ export default function Articles() {
 				</article>
 
 				<article className="relative w-fit h-fit shrink-0">
-					<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="w-[240px] lg:w-[360px] 2xl:w-[400px] h-[360px] lg:h-[400px] bg-black object-cover" />
+					<Image src="/assets/law.jpg" width={1920} height={1281} alt="" className="w-[15rem] lg:w-[22.5rem] 2xl:w-[25rem] h-[22.5rem] lg:h-[25rem] bg-black object-cover" />
 					<div className="bg-white p-6 shadow-[0_5px_30px_0] shadow-[#0F172B18] w-64 lg:w-80 absolute left-8 lg:left-24 2xl:left-32 -bottom-8 lg:-bottom-12">
 						<h3 className="font-serif text-xl lg:text-2xl font-semibold leading-tight">Cambios en la Normativa Laboral 2025</h3>
 						<p className="text-slate-700 mt-3">Reformas clave y su impacto en empresas y trabajadores</p>

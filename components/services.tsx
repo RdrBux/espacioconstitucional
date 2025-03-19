@@ -1,5 +1,6 @@
 import { BookText, BriefcaseBusiness, Building2, GraduationCapIcon, Handshake, MoveRight, NotebookText, Scale, SquareActivity, Trees } from "lucide-react";
 import Link from "next/link";
+import { ServicesSubTitle } from "./viewport-width-texts";
 
 export default function Services() {
 	return (
@@ -10,7 +11,9 @@ export default function Services() {
 			</div>
 
 			<div className="mt-20 border-2 border-slate-200/50 px-8 py-16 relative">
-				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-2 lg:px-4 p-3 bg-white"><h3 className="font-semibold text-[5.5vw] sm:text-3xl whitespace-nowrap font-serif text-center">Para Gobiernos Locales y ONGs</h3></div>
+				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-2 lg:px-4 p-3 bg-white">
+					<ServicesSubTitle content="Para Gobiernos Locales y ONGs" />
+				</div>
 				<ul className="grid lg:grid-cols-3 gap-12">
 					<li className="flex flex-col items-center gap-3">
 						<BriefcaseBusiness className="text-primary-600" size={32} absoluteStrokeWidth />
@@ -51,7 +54,9 @@ export default function Services() {
 			</div>
 
 			<div className="mt-24 border-2 border-slate-200/50 px-8 py-16 relative">
-				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-2 lg:px-4 p-3 bg-white"><h3 className="font-semibold text-[5.5vw] whitespace-nowrap sm:text-3xl font-serif text-center">Para Empresas y el Sector Privado</h3></div>
+				<div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 px-2 lg:px-4 p-3 bg-white">
+					<ServicesSubTitle content="Para Empresas y el Sector Privado" />
+				</div>
 				<ul className="grid lg:grid-cols-3 gap-12">
 					<li className="flex flex-col items-center gap-3">
 						<Scale size={32} className="text-primary-600" absoluteStrokeWidth />
