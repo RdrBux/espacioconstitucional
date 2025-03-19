@@ -5,6 +5,12 @@
 html,
 body {
   font-size: 16px !important;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
+  -webkit-text-size-adjust: none !important;
+  text-size-adjust: none !important;
+  transform: scale(1) !important;
+}
+
+body {
+  height: 100vh; /* Makes sure the page layout stays consistent */
+  overflow-x: hidden;
 }
