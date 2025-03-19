@@ -17,8 +17,13 @@ export default function FixScaling() {
 
 			if (sizeNumber > 16) {
 				const scaleFactor = 16 / sizeNumber;
+				document.documentElement.style.setProperty("--scale-factor", scaleFactor.toString());
 				document.body.style.transform = `scale(${scaleFactor})`;
 				document.body.style.transformOrigin = "top left";
+				document.body.style.width = `${100 / scaleFactor}%`; // Prevent clipping
+			} else {
+				document.body.style.transform = ""; // Reset if normal size
+				document.body.style.width = "";
 			}
 		}
 
