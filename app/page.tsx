@@ -3,6 +3,7 @@ import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import Navigation from "@/components/navigation";
 import Services from "@/components/services";
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         {/* <Articles /> */}
         <Contact />
       </div>
+      <ToastContainer />
     </div>
   );
 }

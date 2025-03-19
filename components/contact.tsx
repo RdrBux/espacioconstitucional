@@ -3,6 +3,7 @@ import { getImageProps } from "next/image"
 import { Logo } from "./logo"
 import Link from "next/link"
 import { getBackgroundImage } from "@/utils/utils"
+import ContactForm from "./contact-form"
 
 export default function Contact() {
 
@@ -18,12 +19,8 @@ export default function Contact() {
 				<h2 className="text-center font-semibold text-2xl lg:text-4xl font-serif text-white">Realizá tu consulta de manera <br /> gratuita y sin compromisos</h2>
 
 				<div className="bg-white p-10 lg:p-12 mt-12 lg:mt-16 grid lg:grid-cols-2 gap-16 max-w-4xl mx-auto">
-					<form action="">
-						<input className="border-2 py-2 px-4 w-full border-slate-200" type="text" placeholder="Nombre completo" />
-						<input className="mt-4 border-2 py-2 px-4 w-full border-slate-200" type="email" placeholder="Correo electrónico" />
-						<textarea className="mt-4 border-2 py-2 px-4 w-full border-slate-200" name="" id="" rows={4} placeholder="Mensaje"></textarea>
-						<button className="bg-primary-600 text-white px-6 py-3 mt-4 block w-full lg:w-fit hover:bg-primary-700 duration-200">Enviar mensaje</button>
-					</form>
+
+					<ContactForm />
 
 					<div className="flex flex-col gap-8 justify-center mx-auto">
 						<div className="flex items-center gap-4">
