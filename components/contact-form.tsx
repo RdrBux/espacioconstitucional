@@ -70,11 +70,11 @@ export default function ContactForm() {
 
 	return (
 		<>
-			<form onSubmit={handleSubmit}>
+			<form className="mx-10 lg:mx-12" onSubmit={handleSubmit}>
 				<input name="name" value={formData.name} onChange={handleChange} className="border-2 py-2 px-4 w-full border-slate-200 outline-none focus:ring-2 focus:ring-primary-400" type="text" placeholder="Nombre completo" required />
 				<input name="email" value={formData.email} onChange={handleChange} className="mt-4 border-2 py-2 px-4 w-full border-slate-200 outline-none focus:ring-2 focus:ring-primary-400" type="email" placeholder="Correo electrónico" required />
 				<textarea name="message" value={formData.message} onChange={handleChange} className="mt-4 border-2 py-2 px-4 w-full border-slate-200 outline-none focus:ring-2 focus:ring-primary-400" rows={4} placeholder="Mensaje" required></textarea>
-				<button type="submit" disabled={isSending} className="bg-primary-600 text-white px-6 py-3 mt-4 block w-full lg:w-fit hover:bg-primary-700 disabled:bg-primary-400 duration-200">{isSending ? "Enviando..." : "Enviar mensaje"}</button>
+				<button type="submit" disabled={isSending} className="bg-primary-600 text-white px-6 py-3 mt-4 block w-full hover:bg-primary-700 disabled:bg-primary-400 duration-200">{isSending ? "Enviando..." : "Enviar mensaje"}</button>
 			</form>
 
 		</>

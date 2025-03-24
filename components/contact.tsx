@@ -18,7 +18,7 @@ export default function Contact() {
 			<section id="contacto" className="py-20 lg:py-24 px-8 lg:px-4">
 				<h2 className="text-center font-semibold text-2xl lg:text-4xl font-serif text-white">Realizá tu consulta de manera <br /> gratuita y sin compromisos</h2>
 
-				<div className="bg-white p-10 lg:p-12 mt-12 lg:mt-16 grid lg:grid-cols-2 gap-16 max-w-4xl mx-auto">
+				<div className="bg-white py-10 lg:py-12 mt-12 lg:mt-16 grid lg:grid-cols-2 gap-16 max-w-4xl mx-auto">
 
 					<ContactForm />
 
