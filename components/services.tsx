@@ -1,4 +1,4 @@
-import { BookText, BriefcaseBusiness, Building2, GraduationCapIcon, Handshake, MoveRight, NotebookText, Scale, SquareActivity, Trees } from "lucide-react";
+import { BookText, BriefcaseBusiness, Building2, GraduationCapIcon, HandHelping, Handshake, MoveRight, NotebookText, Scale, SquareActivity, Trees } from "lucide-react";
 import Link from "next/link";
 import { ServicesSubTitle } from "./viewport-width-texts";
 
@@ -50,6 +50,12 @@ export default function Services() {
 						<h4 className="font-serif font-semibold text-lg text-center">Elaboración de Dictámenes, Ordenanzas, Leyes y Fundamentaciones</h4>
 						<p className="text-center text-sm text-slate-700">Dictámenes Jurídicos Especializados. <br /> Redacción de Leyes, Ordenanzas y Reglamentos Locales.</p>
 					</li>
+
+					<li className="flex flex-col items-center gap-3 lg:col-start-2">
+						<Handshake size={32} className="text-primary-600" absoluteStrokeWidth />
+						<h4 className="font-serif font-semibold text-lg text-center">Mediación Institucional y Resolución de Conflictos</h4>
+						<p className="text-center text-sm text-slate-700">Mediación Intraorganizacional. <br /> Mediación Interinstitucional.</p>
+					</li>
 				</ul>
 			</div>
 
@@ -79,7 +85,7 @@ export default function Services() {
 					<div className="lg:col-span-3 mx-auto lg:mx-32">
 						<div className="grid lg:grid-cols-2 gap-12">
 							<li className="flex flex-col items-center mx-auto gap-3 max-w-sm">
-								<Handshake size={32} className="text-primary-600" absoluteStrokeWidth />
+								<HandHelping size={32} className="text-primary-600" absoluteStrokeWidth />
 								<h4 className="font-serif font-semibold text-lg text-center">Estrategias de Incidencia y Responsabilidad Social Empresarial</h4>
 								<p className="text-center text-sm text-slate-700">Participación en Políticas Públicas y Alianzas Estratégicas.</p>
 							</li>

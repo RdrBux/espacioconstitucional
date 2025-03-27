@@ -145,6 +145,21 @@ export default function Servicios() {
 							<li>Fundamentación jurídica para la adopción de normativas locales.</li>
 						</ul>
 
+						<h3 className="font-semibold text-slate-950 text-xl mt-8">7. Mediación Institucional y Resolución de Conflictos</h3>
+						<p className="mt-2">En contextos institucionales complejos, los conflictos internos o entre actores pueden obstaculizar el logro de objetivos comunes. Desde Espacio Constitucional, ofrecemos servicios de mediación con enfoque constitucional para acompañar procesos de resolución pacífica de disputas.</p>
+
+						<h4 className="font-semibold text-slate-950 mt-5">Mediación Intraorganizacional</h4>
+						<ul className="list-disc ml-6 mt-2">
+							<li>Facilitación de procesos de diálogo y resolución de conflictos dentro de gobiernos locales, ONG u otras entidades del sector público.</li>
+							<li>Mejora del clima organizacional y acompañamiento en procesos de cambio o reestructuración.</li>
+						</ul>
+
+						<h4 className="font-semibold text-slate-950 mt-5">Mediación Interinstitucional</h4>
+						<ul className="list-disc ml-6 mt-2">
+							<li>Acompañamiento en conflictos entre instituciones del Estado, sociedad civil y actores locales.</li>
+							<li>Estrategias colaborativas para construir acuerdos normativos, territoriales o de política pública.</li>
+						</ul>
+
 
 						<h2 id="empresas" className="mt-24 font-semibold text-slate-950 text-center text-2xl">Servicios para Empresas y el Sector Privado</h2>
 						<p className="mt-5">En un entorno global cada vez más regulado y exigente, las empresas deben garantizar que sus operaciones cumplan con normativas constitucionales, estándares internacionales de derechos humanos y principios de sostenibilidad. Espacio Constitucional brinda consultoría estratégica para ayudar a empresas a mitigar riesgos, fortalecer su gobernanza corporativa y consolidar su reputación en mercados cada vez más sensibles a temas sociales, ambientales y de gobernanza.</p>
@@ -183,6 +198,7 @@ export default function Servicios() {
 							<li>Evaluación del impacto reputacional derivado de incumplimientos regulatorios o conflictos con comunidades, empleados o el sector público.</li>
 							<li>Desarrollo de estrategias preventivas para minimizar riesgos y contingencias legales.</li>
 							<li>Mediación y resolución de disputas en temas de derechos humanos, cumplimiento normativo y sostenibilidad.</li>
+							<li>Facilitación de diálogos intraempresariales e interinstitucionales para prevenir litigios y mejorar la gobernanza.</li>
 						</ul>
 
 						<h3 className="font-semibold text-slate-950 text-xl mt-8">2. Capacitación y Desarrollo en Gobernanza Empresarial</h3>
