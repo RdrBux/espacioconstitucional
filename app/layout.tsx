@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
 import FixScaling from "@/components/fix-scaling";
+import { Analytics } from '@vercel/analytics/next';
 
 const sourceSerif = localFont({
   src: [
@@ -53,6 +54,7 @@ export default function RootLayout({
         className={`${sourceSerif.variable} ${sourceSans.variable} text-slate-900 font-sans antialiased`}
       >
         {children}
+        <Analytics />
       </body>
       <FixScaling />
     </html>
