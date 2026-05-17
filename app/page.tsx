@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Contact from "@/components/contact";
+/* import Articles from "@/components/articles"; */
 import Hero from "@/components/hero";
 import Navigation from "@/components/navigation";
 import Services from "@/components/services";
