@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Quotes } from "./icons";
 
 export default function About() {
